@@ -33,16 +33,6 @@ class UserAdapter : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
                 binding.decline.text = "Decline"
 
             }
-//            binding.root.setOnClickListener { view ->
-//                val position =
-//                        adapterPosition.takeIf { it != RecyclerView.NO_POSITION }
-//                                ?: return@setOnClickListener
-////        PosterDetailActivity.startActivity(
-////          view.context,
-////          binding.transformationLayout,
-////          items[position]
-////        )
-//            }
         }
     }
 

@@ -32,7 +32,7 @@ class MainRepository constructor(
     val users = userDao.getUserStats()
     if (users.isEmpty()) {
       /**
-       * fetch [Poster] from the network and getting [ApiResponse] asynchronously.
+       * fetch [Users] from the network and getting [ApiResponse] asynchronously.
        * @see [onSuccess](https://github.com/skydoves/sandwich#onsuccess-onerror-onexception)
        * */
       shaadiClient.fetchUserStatsList(marvelDataSource, disposable) { apiResponse ->
